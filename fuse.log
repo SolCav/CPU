@@ -1,0 +1,28 @@
+Running: C:\ise\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/RM/Desktop/backup/CPU_06/CPU_05_fix_isz/CPU/TB_isim_beh.exe -prj C:/Users/RM/Desktop/backup/CPU_06/CPU_05_fix_isz/CPU/TB_beh.prj work.TB work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/RM/Desktop/backup/CPU_06/CPU_05_fix_isz/CPU/Regfile.v" into library work
+Analyzing Verilog file "C:/Users/RM/Desktop/backup/CPU_06/CPU_05_fix_isz/CPU/PC.v" into library work
+Analyzing Verilog file "C:/Users/RM/Desktop/backup/CPU_06/CPU_05_fix_isz/CPU/InsMemory.v" into library work
+Analyzing Verilog file "C:/Users/RM/Desktop/backup/CPU_06/CPU_05_fix_isz/CPU/Decoder.v" into library work
+Analyzing Verilog file "C:/Users/RM/Desktop/backup/CPU_06/CPU_05_fix_isz/CPU/ALU.v" into library work
+Analyzing Verilog file "C:/Users/RM/Desktop/backup/CPU_06/CPU_05_fix_isz/CPU/TB.v" into library work
+Analyzing Verilog file "C:/ise/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/Users/RM/Desktop/backup/CPU_06/CPU_05_fix_isz/CPU/TB.v" Line 69: Size mismatch in connection of port <up_down>. Formal port size is 1-bit while actual signal size is 32-bit.
+Completed static elaboration
+Compiling module PC
+Compiling module InsMemory
+Compiling module Decoder
+Compiling module Regfile
+Compiling module ALU
+Compiling module TB
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 7 Verilog Units
+Built simulation executable C:/Users/RM/Desktop/backup/CPU_06/CPU_05_fix_isz/CPU/TB_isim_beh.exe
+Fuse Memory Usage: 28692 KB
+Fuse CPU Usage: 296 ms
